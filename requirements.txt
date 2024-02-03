@@ -1,8 +1,9 @@
-pycaret
-Flask
-Jinja2
-gunicorn
-certifi
-itsdangerous
-markupsafe
+pycaret==3.2.0
+Flask==2.0.1
+werkzeug==2.0.3
+#Jinja2
+#gunicorn
+#certifi
+#itsdangerous
+#markupsafe
 
