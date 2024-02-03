@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 import numpy as np
 #import scikit-learn
-import config
+#import config
 
 
 app = Flask(__name__)
@@ -36,4 +36,4 @@ def predict_api():
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=config.PORT, debug=config.DEBUG_MODE)
-    #app.run(debug=True, host='localhost', port=8080)
+    #app.run(debug=True, host='localhost', port=8080) en developpement
